@@ -1,13 +1,13 @@
 import './index.scss'
 import { useState } from 'react'
-import LogoS from '../../assets/images/logo-s.png'
-import LogoSubtitle from '../../assets/images/logo_sub.png'
+import LogoS from '../../Assets/images/logo-s.png'
+import LogoSubtitle from '../../Assets/images/logo_sub.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
   faLinkedin,
   faGithub,
   faYoutube,
-  faSkype,
+  faInstagram,
 } from '@fortawesome/free-brands-svg-icons'
 import {
   faHome,
@@ -72,20 +72,21 @@ const Sidebar = () => {
       <ul>
         <li>
           <a
-            href="https://www.linkedin.com/in/slobodan-gaji%C4%87-006bb8b8/"
+            href="https://www.youtube.com/@allanalton47"
             target="_blank"
             rel="noreferrer"
           >
             <FontAwesomeIcon
-              icon={faLinkedin}
+              icon={faYoutube}
               color="#4d4d4e"
               className="anchor-icon"
             />
           </a>
         </li>
+
         <li>
           <a
-            href="https://github.com/bobangajicsm"
+            href="https://github.com/alton47"
             target="_blank"
             rel="noreferrer"
           >
@@ -96,23 +97,28 @@ const Sidebar = () => {
             />
           </a>
         </li>
+
+
         <li>
           <a
-            href="https://www.youtube.com/channel/UCBu5ulO4d-d47lAVybpRTkw"
+            href=" https://www.instagram.com/alann_tz/"
             rel="noreferrer"
             target="_blank"
           >
             <FontAwesomeIcon
-              icon={faYoutube}
+              icon={faInstagram}
               color="#4d4d4e"
               className="anchor-icon"
             />
           </a>
         </li>
+
+
         <li>
-          <a href="skype:live:bobangajicsm" rel="noreferrer" target="_blank">
+          <a href="https://www.linkedin.com/in/allan-alton-69a4811ba/" 
+             rel="noreferrer" target="_blank">
             <FontAwesomeIcon
-              icon={faSkype}
+              icon={faLinkedin}
               color="#4d4d4e"
               className="anchor-icon"
             />
